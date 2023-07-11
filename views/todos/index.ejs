@@ -1,0 +1,9 @@
+<title>Express Skills</title>
+<body>
+    <h1>Skills</h1>
+    <ul>
+      <% skills.forEach(function(t) { %>
+        <a href="/skills/<%= t.id %>"><%= t.skill %></a>
+      <% }); %>
+    </ul>
+  </body>
