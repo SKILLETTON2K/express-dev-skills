@@ -1,4 +1,4 @@
-const todos = [
+const skills = [
     {id: 125223, skill: 'JavaScript', fluent: true},
     {id: 127904, skill: 'CSS', fluent: true},
     {id: 139608, skill: 'Full Stack Engineering', fluent: false}
