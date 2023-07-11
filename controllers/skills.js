@@ -1,5 +1,5 @@
 
-const Todo = require('../models/skill');
+const Skill = require('../models/skill');
 
 module.exports = {
     index,

@@ -1,7 +1,7 @@
 const todos = [
-    {id: 125223, skill: 'Dedicated', done: true},
-    {id: 127904, skill: 'Strives to learn more', done: false},
-    {id: 139608, skill: 'Fast typer', done: false}
+    {id: 125223, skill: 'JavaScript', fluent: true},
+    {id: 127904, skill: 'CSS', fluent: true},
+    {id: 139608, skill: 'Full Stack Engineering', fluent: false}
   ];
 	
   module.exports = {
