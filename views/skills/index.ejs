@@ -3,7 +3,12 @@
     <h1>Skills</h1>
     <ul>
       <% skills.forEach(function(t) { %>
+        <li>
+          <%= t.todo %>
+          -
         <a href="/skills/<%= t.id %>"><%= t.skill %></a>
+        </li>
       <% }); %>
     </ul>
+    <a href="/skills/new">Add Skill</a>
   </body>
