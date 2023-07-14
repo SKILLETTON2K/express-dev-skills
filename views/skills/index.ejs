@@ -1,5 +1,5 @@
 <title>Express Skills</title>
-<body>
+<%- include('../partials/header') %>
     <h1>Skills</h1>
     <ul>
       <% skills.forEach(function(t) { %>
@@ -11,4 +11,4 @@
       <% }); %>
     </ul>
     <a href="/skills/new">Add Skill</a>
-  </body>
+    <%- include('../partials/footer') %>

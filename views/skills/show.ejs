@@ -1,12 +1,13 @@
-<body>
+<%- include('../partials/header') %>
     <h3><%= skill.skill %></h3>
-    <h3>Fluent: <%= skill.fluent ? 'Yes' : 'No' %></h3>
+    <h3>Fluent: <%= skill.fluent ? 'Yes' : 'No' %></h3><br>
 
-
+    <label>
+      Remove:
     <form action="/skills/<%= skill.id %>?_method=DELETE"
       class="delete-form" method="POST">
       <button type="sumbit">X</button>
 
-
-      </form>
-  </body>
+    </label>
+    </form>
+      <%- include('../partials/footer') %>
